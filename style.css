@@ -690,6 +690,9 @@
   .connect {
     margin-right: 30px;
   }
+
+  .contactUs-right img {
+    display: none;
 }
 
 @media (max-width: 601px) {
@@ -769,6 +772,10 @@
   }
 
   .logo-footer img {
+    display: none;
+  }
+
+  .contactUs-right img {
     display: none;
   }
 }
@@ -856,6 +863,10 @@
   .logo-footer img {
     display: none;
   }
+  
+  .contactUs-right img {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
@@ -941,6 +952,10 @@
   .logo-footer img {
     display: none;
   }
+
+  .contactUs-right img {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1024,6 +1039,10 @@
   }
 
   .logo-footer img {
+    display: none;
+  }
+
+  .contactUs-right img {
     display: none;
   }
 }
