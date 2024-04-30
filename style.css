@@ -693,6 +693,7 @@
 
   .contactUs-right img {
     display: none;
+  }
 }
 
 @media (max-width: 601px) {
