@@ -1,0 +1,30 @@
+.body {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.photography-container {
+background-color: white;
+position: relative;
+padding-top: 0;
+margin-top: 0;
+}
+
+.photography h1 {
+color: #1C3041;
+}
+
+.photography p {
+color: #1C3041;
+}
+
+.photos-top img {
+border-radius: 10px;
+box-shadow: 10px -10px #4c6f8d;
+}
+
+.photos-bottom img {
+border-radius: 10px;
+box-shadow: 10px -10px #4c6f8d;
+margin-bottom: 40px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fred.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="icon" type="image/png" href="Images/main-logo.png">
+</head>
+
+<body>
+  <header> <!--The heading part of the website-->
+    <nav class="navbar"> 
+      <div class="navdiv"> 
+        <div class="logo"><a href="index.html"><img src="./Images/logo.png" alt="logo" height="60px"></a></div> <!--Navigation logo-->
+        <ul> <!--Navigation list-->
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="videography.html">Videography</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li> 
+        </ul> 
+        <div class="icons"> <!--Navigation icons-->
+          <a href="https://www.google.com/webhp"><img src="./Images/search-icon.png" alt="search-icon" height="17px" width="17px"></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./Images/mail-icon.png" alt="mail-icon" height="17px" width="20x"></a>
+          <a href="https://en.wikipedia.org/wiki/Language"><img src="./Images/lang-icon.png" alt="lang-icon" height="17px" width="17px"></a>
+        </div>
+        <button id="apply-now"><a href="contact.html">Apply Now</a></button> <!--Navigation button-->
+
+        <div class="main-menu"> <!--Navigation menu that shows when the website is viewed with a phone--> 
+          <div class="icons-menu">
+            <a href="https://www.google.com/webhp"><img src="./Images/search-icon.png" alt="search-icon" height="17px" width="17px"></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./Images/mail-icon.png" alt="mail-icon" height="17px" width="17px"></a>
+            <a href="https://en.wikipedia.org/wiki/Language"><img src="./Images/lang-icon.png" alt="lang-icon" height="17px" width="17px"></a>
+          </div>
+          <div class="toggle-button"> <!--The menu icon which can be toggled-->    
+            <img class="toggle-button-icon" src="Images/menu-icon.png" alt="menu-icon" height="20px" width="20px">
+          </div>
+        </div>
+      </div>
+      <div class="dropdown-menu"> 
+        <ul>
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="videography.html">Videography</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" class="action-button">Apply Now</a></li> 
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="aboutUs">
+      <div class="aboutUs-left">
+        <p id="yellow-title">About Us</p>
+        <h1>Hi, my name is Fred</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="aboutUs-right">
+        <img src="Images/aboutUs-photo.jpg" alt="About Us Image" height="400px" width="650px">
+      </div>
+    </div>
+    <div class="about-bottom">
+      <div class="aboutBottom-left">      
+        <img id="about-photo" src="Images/photo-2.jpg" alt="photo-2" height="400px" width="650px">
+      </div>
+      <div class="aboutBottom-right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button id="apply-now"><a href="/">Apply Now</a></button>
+      </div>
+    </div>
+  </main>
+
+  <footer> <!--The footer part of the website-->
+    <div class="footer-container">
+      <div class="top-footer">
+        <h1>START WITH US</h1>
+        <button><a href="contact.html">CONTACT US</a></button>
+        <button><a href="about.html">ABOUT US</a></button>
+      </div>
+      <div class="bottom-footer">
+        <div class="menu">
+          <h3>MENU</h3> <!--Menu section-->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="videography.html">Videography</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="connect"> <!--Connect section-->
+          <h3>CONNECT</h3>
+          <p>Follow</p>
+          <div class="socials">
+            <a href="https://www.facebook.com"><img src="Images/facebook-icon.png" alt="facebook-icon" height="17px" width="17px"></a>
+            <a href="https://www.instagram.com"><img src="Images/instagram-icon.png" alt="instagram-icon" height="17px" width="17px"></a>
+            <a href="https://www.whatsapp.com"><img src="Images/whatsapp-icon.png" alt="whatsapp-icon" height="17px" width="17px"></a>
+            <a href="https://www.linkedin.com"><img src="Images/linkedin-icon.png" alt="linkedin-icon" height="17px" width="17px"></a>
+          </div>
+        </div>
+        <div class="contact"> <!--Contact information section-->
+          <h3>CONTACT</h3>
+          <p>+971 50 000 0000</p>
+          <p>myemail@gmail.com</p>
+          <button id="apply-now"><a href="contact.html">Apply Now</a></button>
+        </div>
+        <div class="logo-footer"> <!--Footer logo-->
+          <img src="Images/logo-footer.png" alt="logo-footer" height="300px">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
